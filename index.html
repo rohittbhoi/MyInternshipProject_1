@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Pricing Plans</h1>
+    <div class="currency-toggle">
+      <label for="currency-select">Select Currency:</label>
+      <select id="currency-select">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="INR">INR</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <section class="pricing-plans">
+      <div class="plan active">
+        <h2>Basic</h2>
+        <p class="price">$10/month</p>
+        <p class="description">Ideal for individuals and small teams</p>
+        <ul>
+          <li>10 GB Storage</li>
+          <li>5 Projects</li>
+          <li>Basic Support</li>
+        </ul>
+        <button class="btn">Select Plan</button>
+      </div>
+      <div class="plan">
+        <h2>Pro</h2>
+        <p class="price">$20/month</p>
+        <p class="description">Great for growing businesses</p>
+        <ul>
+          <li>50 GB Storage</li>
+          <li>Unlimited Projects</li>
+          <li>Premium Support</li>
+        </ul>
+        <button class="btn">Select Plan</button>
+      </div>
+      <div class="plan">
+        <h2>Premium</h2>
+        <p class="price">$30/month</p>
+        <p class="description">Perfect for large enterprises</p>
+        <ul>
+          <li>Unlimited Storage</li>
+          <li>Unlimited Projects</li>
+          <li>24/7 Priority Support</li>
+        </ul>
+        <button class="btn">Select Plan</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Pricing Page</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
